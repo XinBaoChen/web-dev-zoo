@@ -40,14 +40,14 @@ header a:hover {
 
 /* Image styling */
 img {
-    width: 50%; /* Sets the image width to 50% of its container */
-    max-width: 100%; /* Ensures it still doesn't exceed its container if container is smaller */
-    max-height: 400px; /* Limits the maximum height of the image */
-    height: auto; /* Allows height to scale proportionally based on the 50% width */
+    width: 50%; 
+    max-width: 100%; 
+    max-height: 400px; 
+    height: auto; 
     display: block;
-    margin: 0 auto 20px auto; /* Centers the image and adds space below */
+    margin: 0 auto 20px auto; 
     border-radius: 5px;
-    object-fit: cover; /* Crops if necessary to fit max-height, maintaining aspect ratio */
+    object-fit: cover; 
 }
 /* Paragraph styling */
 p {
