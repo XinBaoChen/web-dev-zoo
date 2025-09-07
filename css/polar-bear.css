@@ -1,5 +1,56 @@
+/* General body styling */
 body {
-  font-family: Courier New;
-  background-color: silver;
-  text-align: center;
+    font-family: Arial, sans-serif; /* A clean, readable font */
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text for contrast */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Container to center content */
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Centers the container */
+    background-color: #ffffff; /* White background for the content area */
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow effect */
+}
+
+/* Header styling */
+header h1 {
+    color: #2c5d3c; /* A nice, earthy green */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Navigation link styling */
+header a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Image styling */
+img {
+    width: 50%; /* Sets the image width to 50% of its container */
+    max-width: 100%; /* Ensures it still doesn't exceed its container if container is smaller */
+    max-height: 400px; /* Limits the maximum height of the image */
+    height: auto; /* Allows height to scale proportionally based on the 50% width */
+    display: block;
+    margin: 0 auto 20px auto; /* Centers the image and adds space below */
+    border-radius: 5px;
+    object-fit: cover; /* Crops if necessary to fit max-height, maintaining aspect ratio */
+}
+/* Paragraph styling */
+p {
+    font-size: 16px;
+    text-align: justify; /* Justified text looks clean */
 }
