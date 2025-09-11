@@ -1,0 +1,57 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Container to center content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Header styling */
+header h1 {
+    color: #2c5d3c;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Navigation link styling */
+header a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Image styling */
+img {
+    width: 50%; /* Sets the image width to 50% of its container */
+    max-width: 100%;
+    max-height: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto; /* Centers the image */
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 16px;
+    text-align: justify;
+}
