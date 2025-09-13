@@ -55,3 +55,14 @@ p {
     font-size: 16px;
     text-align: justify;
 }
+
+/* Styling for the link at the bottom of the page */
+body > a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #007bff;
+}

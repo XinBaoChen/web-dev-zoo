@@ -1,36 +1,72 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Xin's Zoo</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-  </head>
-  <body>
-    <h1>Welcome to XinBao's Zoo</h1>
-    <h2>Explore the Wild</h2>
-    <h3>See the interesting animals at the zoo:</h3>
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XinBao's Zoo - Welcome</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Google Fonts for a nicer look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Kalam:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-container">
+        <header class="zoo-header">
+            <h1>Welcome to Xin's Zoo</h1>
+            <p>An adventure into the wild awaits. Select an animal to learn more.</p>
+        </header>
 
-    <div class="link">
-      <a href="panda.html">Giant Panda</a>
+          <!-- Animals card / animation starts here -->
+        <main>
+            <nav class="animal-grid">
+                <!-- African Elephant Card -->
+                <a href="african-elephant.html" class="animal-card">
+                    <div class="card-content">
+                        <h3>African Elephant</h3>
+                        <p class="fun-fact">Did you know they can communicate through vibrations in the ground?</p>
+                    </div>
+                    <span class="animal-icon">🐘</span>
+                </a>
+                <!-- Tiger Card -->
+                <a href="tigar.html" class="animal-card">
+                    <div class="card-content">
+                        <h3>Tiger</h3>
+                        <p class="fun-fact">Whose stripes are as unique as a human fingerprint?</p>
+                    </div>
+                    <span class="animal-icon">🐅</span>
+                </a>
+                <!-- Giant Panda Card -->
+                <a href="panda.html" class="animal-card">
+                    <div class="card-content">
+                        <h3>Giant Panda</h3>
+                        <p class="fun-fact">I spend up to 14 hours a day just eating bamboo!</p>
+                    </div>
+                    <span class="animal-icon">🐼</span>
+                </a>
+                <!-- Gorilla Card -->
+                <a href="gorilla.html" class="animal-card">
+                     <div class="card-content">
+                        <h3>Gorilla</h3>
+                        <p class="fun-fact">We can learn sign language to talk with humans.</p>
+                    </div>
+                    <span class="animal-icon">🦍</span>
+                </a>
+                <!-- Polar Bear Card -->
+                <a href="polar-bear.html" class="animal-card">
+                     <div class="card-content">
+                        <h3>Polar Bear</h3>
+                        <p class="fun-fact">Under my white fur, my skin is actually black.</p>
+                    </div>
+                    <span class="animal-icon">🐻‍❄️</span>
+                </a>
+            </nav>
+        </main>
+        
+        <footer class="zoo-footer">
+            <p>&copy; 2025 Xin's Zoo. </p>
+        </footer>
     </div>
-
-      <div class="link">
-      <a href="gorilla.html">Gorilla</a>
-    </div>
-
-    <div class="link">
-      <a href="polar-bear.html">Polar Bear</a>
-    </div>
-
-
-     <div class="link">
-      <a href="tigar.html">Tiger</a>
-    </div>
-
-    <div class="link">
-      <a href="african-elephant.html">African Elephant</a>
-    </div>
-
-  </body>
+</body>
 </html>
+
